@@ -1,0 +1,12 @@
+body {background: url(burger-background.jpg);
+}
+
+.container {
+	background-color: #ffffcc;
+	margin-top: 20px;
+}
+
+img {
+	width: 200px;
+	height: auto;
+}
