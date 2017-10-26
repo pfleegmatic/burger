@@ -1,4 +1,4 @@
-//cat.js must match burgersController.js must match orm.js
+//burger.js must match burgersController.js must match orm.js
 
 
 // require in the orm file that will talk to the database
@@ -28,11 +28,11 @@ var burger = {
 		});
 	},
 
-	delete: function(condition, cb) {
-    orm.delete("burgers", condition, function(res) {
-      cb(res);
-    });
-  }
+	// delete: function(condition, cb) {
+ //    orm.delete("burgers", condition, function(res) {
+ //      cb(res);
+ //    });
+ //  }
 };
 
 
