@@ -27,7 +27,7 @@ var mysql = require("mysql");
 
 
 ///HEROKU CONNECTION
-// var connection;
+var connection;
 	
 // // add in the environment variable option for JAWSDB for heroku
 if (process.env.JAWSDB_URL) {
