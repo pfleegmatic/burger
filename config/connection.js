@@ -1,5 +1,5 @@
 // // Creation of database connection
-// var mysql = require("mysql");
+var mysql = require("mysql");
 
 // //SQL CONNECTION
 // var connection = mysql.createConnection({
